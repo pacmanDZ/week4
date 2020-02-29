@@ -1,0 +1,142 @@
+
+
+$font-family-default: 'roboto', sans-serif;
+$transition-fast: .25s;
+
+body{
+  font-family: $font-family-default;
+}
+header {
+  height: 700px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.head{
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 2vw;
+}
+.head-text-h2{
+  font-size: 60px;
+  margin-bottom: 0;
+  line-height: 90%;
+}
+.head-text-p{
+  font-size: 18px;
+  line-height: 90%;
+}
+.head-slaider{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.slider-nav .slick{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 10px;
+}
+
+
+main{
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: grid;
+  grid-column: 1fr 1fr;
+  }
+  .main-h2{
+    color: white;
+    font-size: 60px;
+    line-height: 90%;
+    margin-bottom: 0;
+
+  }
+.main-p{
+  color: white;
+  font-size: 18px;
+  line-height: 90%;
+}
+
+.main-slaider{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 20vw;
+}
+
+.main-slicks{
+  width: 100px;
+  height: 100px;
+margin-left: 10px;
+}
+
+
+
+.head-text .h2{
+  font-size: 48;
+}
+a{
+  text-decoration: none;
+  color: grey;
+  &:hover {
+      color: black;
+    }
+}
+.img_text{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+}
+.sale{
+  color: gold;
+}
+
+footer{
+  height: 500px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.footer{
+  margin-left: 250px;
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+}
+
+.footer-text{
+  color: white;
+  line-height: 90%;
+  margin-bottom: 0;
+}
+.back{
+    font-size: 48px;
+}
+
+form .row {
+display: block;
+padding: 7px 8px;
+margin-bottom: 7px;
+margin-left: 500px;
+width: 60%;
+}
+form .row:hover {
+}
+
+form label {
+display: inline-block;
+font-size: 1.2em;
+width: 10px;
+padding: 6px 0;
+color: #464646;
+vertical-align: top;
+}
+form .req { color: #ca5354; }
+
+form .center{
+text-decoration: none;
+margin-left: 670px;
+width: 10px;
+background-color: #0000FF;
+}
